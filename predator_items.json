@@ -1,0 +1,159 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "PredatorItemsHB",
+                "abbreviation": "PIHB",
+                "full": "Predator Items by Homebrew",
+                "authors": ["Your Name"],
+                "version": "1.0.0",
+                "url": ""
+            }
+        ]
+    },
+    "item": [
+        {
+            "name": "Wristblades",
+            "source": "PredatorItemsHB",
+            "page": 1,
+            "type": "M",
+            "rarity": "none",
+            "weight": 1,
+            "dmg1": "1d6",
+            "dmgType": "S",
+            "property": ["F", "L"],
+            "entries": [
+                "Retractable blades mounted on gauntlets worn by Predators. These weapons are considered part of the wearer and cannot be disarmed. They can be extended or retracted as a free action."
+            ],
+            "weaponCategory": "simple"
+        },
+        {
+            "name": "Plasma Caster",
+            "source": "PredatorItemsHB",
+            "page": 1,
+            "type": "R",
+            "rarity": "uncommon",
+            "weight": 3,
+            "dmg1": "2d8",
+            "dmgType": "F",
+            "range": "60/120",
+            "entries": [
+                "A shoulder-mounted energy weapon that fires superheated plasma bolts. The weapon is controlled by the wearer's Bio-Mask targeting system and can fire without the use of hands. It has 20 charges and regains 1d4 + 1 charges daily at dawn."
+            ],
+            "weaponCategory": "martial",
+            "charges": 20,
+            "recharge": "dawn",
+            "rechargeAmount": "1d4 + 1"
+        },
+        {
+            "name": "Bio-Mask",
+            "source": "PredatorItemsHB",
+            "page": 1,
+            "type": "WG",
+            "rarity": "rare",
+            "weight": 2,
+            "ac": 0,
+            "entries": [
+                "This advanced helmet provides multiple vision modes and life support. While wearing this mask, you gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You can breathe normally in any environment that has air.",
+                        "You have darkvision out to a range of 120 feet.",
+                        "You can switch between normal vision and thermal vision as a bonus action.",
+                        "You can see invisible creatures and objects within 30 feet.",
+                        "The mask translates languages, allowing you to understand (but not speak) any spoken language."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Predator Cloak",
+            "source": "PredatorItemsHB",
+            "page": 1,
+            "type": "WG",
+            "rarity": "very rare",
+            "weight": 5,
+            "ac": 0,
+            "entries": [
+                "This advanced cloaking device renders the wearer nearly invisible. While wearing this cloak, you can use an action to cast {@spell invisibility} on yourself. The cloak has 3 charges and regains 1d3 charges daily at dawn. The invisibility ends if you attack or cast a spell."
+            ],
+            "charges": 3,
+            "recharge": "dawn",
+            "rechargeAmount": "1d3"
+        },
+        {
+            "name": "Self-Healing Module",
+            "source": "PredatorItemsHB",
+            "page": 1,
+            "type": "WG",
+            "rarity": "uncommon",
+            "weight": 1,
+            "entries": [
+                "This medical device can rapidly heal wounds. As a bonus action, you can activate the module to regain hit points equal to 1d4 + your Constitution modifier. The module has 5 charges and regains 1d4 + 1 charges daily at dawn."
+            ],
+            "charges": 5,
+            "recharge": "dawn",
+            "rechargeAmount": "1d4 + 1"
+        },
+        {
+            "name": "Spear Trap",
+            "source": "PredatorItemsHB",
+            "page": 1,
+            "type": "G",
+            "rarity": "none",
+            "weight": 2,
+            "entries": [
+                "A mechanical trap that launches a spear when triggered. Setting the trap takes 1 minute and requires a successful DC 15 Dexterity (Sleight of Hand) check. When a creature steps on the trigger (a 5-foot square), they must make a DC 15 Dexterity saving throw or take 2d8 piercing damage."
+            ]
+        },
+        {
+            "name": "Net Trap",
+            "source": "PredatorItemsHB",
+            "page": 1,
+            "type": "G",
+            "rarity": "none",
+            "weight": 3,
+            "entries": [
+                "A trap that deploys a weighted net when triggered. Setting the trap takes 1 minute and requires a successful DC 15 Dexterity (Sleight of Hand) check. When triggered, creatures in a 10-foot square must make a DC 15 Dexterity saving throw or be restrained by the net. A creature can use its action to make a DC 15 Strength check to free itself or another creature."
+            ]
+        },
+        {
+            "name": "Snare Trap",
+            "source": "PredatorItemsHB",
+            "page": 1,
+            "type": "G",
+            "rarity": "none",
+            "weight": 1,
+            "entries": [
+                "A simple rope snare that catches creatures by the leg. Setting the trap takes 1 minute and requires a successful DC 15 Dexterity (Sleight of Hand) check. When triggered, the creature must make a DC 15 Dexterity saving throw or be restrained and lifted 5 feet off the ground. A creature can use its action to make a DC 15 Strength check to free itself."
+            ]
+        },
+        {
+            "name": "Shock Dart",
+            "source": "PredatorItemsHB",
+            "page": 1,
+            "type": "A",
+            "rarity": "uncommon",
+            "weight": 0.1,
+            "dmg1": "1d4",
+            "dmgType": "L",
+            "range": "30/60",
+            "entries": [
+                "A small dart that delivers an electric shock on impact. On a hit, the target must make a DC 13 Constitution saving throw or be stunned until the end of their next turn. Each dart can only be used once."
+            ],
+            "weaponCategory": "simple"
+        },
+        {
+            "name": "Portable Mine",
+            "source": "PredatorItemsHB",
+            "page": 1,
+            "type": "G",
+            "rarity": "uncommon",
+            "weight": 0.5,
+            "entries": [
+                "A small explosive device that can be placed and remotely detonated. Setting the mine takes an action, and it can be detonated as a bonus action if you are within 120 feet. When detonated, all creatures within 10 feet must make a DC 15 Dexterity saving throw, taking 3d6 fire damage on a failed save, or half as much on a successful one."
+            ]
+        }
+    ]
+}

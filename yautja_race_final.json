@@ -1,0 +1,151 @@
+
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "YautjaRaceHB",
+                "abbreviation": "YRHB",
+                "full": "Yautja Race by Homebrew",
+                "authors": ["Your Name"],
+                "version": "1.0.0",
+                "url": ""
+            }
+        ]
+    },
+    "race": [
+        {
+            "name": "Yautja",
+            "source": "YautjaRaceHB",
+            "size": ["M"],
+            "speed": 30,
+            "ability": [
+                {
+                    "dex": 2,
+                    "con": 1
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "yautja": true
+                }
+            ],
+            "entries": [
+                {
+                    "name": "Thermal Physiology",
+                    "type": "entries",
+                    "entries": ["You have advantage on Wisdom (Perception) checks that rely on hearing or sight in hot environments, but disadvantage in cold environments."]
+                },
+                {
+                    "name": "Terrain Adaptation",
+                    "type": "entries",
+                    "entries": ["When you finish a long rest, you can choose to become adapted to one terrain type from the ranger's list of favored terrains. While in your adapted terrain, you have advantage on Dexterity (Stealth) checks."]
+                },
+                {
+                    "name": "Natural Resilience",
+                    "type": "entries",
+                    "entries": ["You have resistance to poison damage."]
+                }
+            ]
+        }
+    ],
+    "subrace": [
+        {
+            "name": "Jungle Hunter",
+            "source": "YautjaRaceHB",
+            "raceName": "Yautja",
+            "raceSource": "YautjaRaceHB",
+            "ability": [
+                {
+                    "dex": 1,
+                    "wis": 1
+                }
+            ],
+            "entries": [
+                {
+                    "name": "Natural Camouflage",
+                    "type": "entries",
+                    "entries": ["You have advantage on Dexterity (Stealth) checks made to hide in forest or jungle terrain."]
+                },
+                {
+                    "name": "Predatory Ambush",
+                    "type": "entries",
+                    "entries": ["If you hit a creature with an attack roll, the creature takes an extra 1d4 damage if it hasn't taken a turn yet in the current combat."]
+                }
+            ]
+        },
+        {
+            "name": "City Hunter",
+            "source": "YautjaRaceHB",
+            "raceName": "Yautja",
+            "raceSource": "YautjaRaceHB",
+            "ability": [
+                {
+                    "dex": 1,
+                    "int": 1
+                }
+            ],
+            "entries": [
+                {
+                    "name": "Urban Camouflage",
+                    "type": "entries",
+                    "entries": ["You have advantage on Dexterity (Stealth) checks made to hide in urban environments."]
+                },
+                {
+                    "name": "Improvised Tactician",
+                    "type": "entries",
+                    "entries": ["You can use your bonus action to make a Wisdom (Perception) check to spot a hidden creature or object, or to make an Intelligence (Investigation) check to deduce the workings of a trap or mechanism."]
+                }
+            ]
+        },
+        {
+            "name": "Elder Yautja",
+            "source": "YautjaRaceHB",
+            "raceName": "Yautja",
+            "raceSource": "YautjaRaceHB",
+            "ability": [
+                {
+                    "str": 1,
+                    "cha": 1
+                }
+            ],
+            "entries": [
+                {
+                    "name": "Mentor's Presence",
+                    "type": "entries",
+                    "entries": ["When a friendly creature who can see you makes an attack roll or a saving throw, you can use your reaction to grant them advantage on the roll."]
+                },
+                {
+                    "name": "Tactical Insight",
+                    "type": "entries",
+                    "entries": ["You have proficiency in the Insight and History skills."]
+                }
+            ]
+        },
+        {
+            "name": "Wasteland Hunter",
+            "source": "YautjaRaceHB",
+            "raceName": "Yautja",
+            "raceSource": "YautjaRaceHB",
+            "ability": [
+                {
+                    "con": 1,
+                    "wis": 1
+                }
+            ],
+            "entries": [
+                {
+                    "name": "Environmental Resilience",
+                    "type": "entries",
+                    "entries": ["You have advantage on saving throws against extreme heat and cold."]
+                },
+                {
+                    "name": "Survival Expert",
+                    "type": "entries",
+                    "entries": ["You have proficiency in the Survival skill."]
+                }
+            ]
+        }
+    ]
+}
+

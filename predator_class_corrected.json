@@ -1,0 +1,703 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "PredatorClassHB",
+                "abbreviation": "PCHB",
+                "full": "Predator Class by Homebrew",
+                "authors": [
+                    "Your Name"
+                ],
+                "version": "1.0.0",
+                "url": ""
+            }
+        ]
+    },
+    "class": [
+        {
+            "name": "Predator",
+            "source": "PredatorClassHB",
+            "hd": {
+                "number": 1,
+                "faces": 10
+            },
+            "proficiency": [
+                "dex",
+                "wis"
+            ],
+            "startingProficiencies": {
+                "armor": [
+                    "light",
+                    "medium"
+                ],
+                "weapons": [
+                    "simple",
+                    "martial"
+                ],
+                "tools": [
+                    "tinker's tools"
+                ]
+            },
+            "startingSkills": {
+                "choose": {
+                    "from": [
+                        "athletics",
+                        "perception",
+                        "stealth",
+                        "survival",
+                        "intimidation",
+                        "investigation"
+                    ],
+                    "count": 2
+                }
+            },
+            "classFeatures": [
+                "Hunter's Code|Predator|PredatorClassHB|1",
+                "Wristblades|Predator|PredatorClassHB|1",
+                "Bio-Mask|Predator|PredatorClassHB|1",
+                "Hunter's Shroud|Predator|PredatorClassHB|1",
+                "Hunter's Shroud|Predator|PredatorClassHB|2",
+                {
+                    "classFeature": "Hunting Discipline|Predator|PredatorClassHB|3",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Predator|PredatorClassHB|4",
+                "Adaptive Camouflage|Predator|PredatorClassHB|5",
+                "Plasma Caster|Predator|PredatorClassHB|5",
+                "Self-Healing Module|Predator|PredatorClassHB|6",
+                {
+                    "classFeature": "Hunting Discipline Feature|Predator|PredatorClassHB|7",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Predator|PredatorClassHB|8",
+                "Trap Mastery|Predator|PredatorClassHB|9",
+                "Predator's Veil|Predator|PredatorClassHB|10",
+                "Mask Upgrade|Predator|PredatorClassHB|10",
+                {
+                    "classFeature": "Hunting Discipline Feature|Predator|PredatorClassHB|11",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Predator|PredatorClassHB|12",
+                "Advanced Adaptive Camouflage|Predator|PredatorClassHB|13",
+                "Mask Upgrade|Predator|PredatorClassHB|14",
+                {
+                    "classFeature": "Hunting Discipline Feature|Predator|PredatorClassHB|15",
+                    "gainSubclassFeature": true
+                },
+                "Silent Execution|Predator|PredatorClassHB|15",
+                "Ability Score Improvement|Predator|PredatorClassHB|16",
+                "Ultimate Trophy|Predator|PredatorClassHB|17",
+                "Perfect Predator Cloak|Predator|PredatorClassHB|18",
+                "Ability Score Improvement|Predator|PredatorClassHB|19",
+                "Apex Predator|Predator|PredatorClassHB|20"
+            ],
+            "subclassTitle": "Hunting Discipline"
+        }
+    ],
+    "classFeature": [
+        {
+            "name": "Hunter's Code",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "level": 1,
+            "entries": [
+                "A Predator lives by a code of honor that dictates their hunts. You must follow these principles:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Never hunt the sick, pregnant, or very young",
+                        "Give worthy prey a chance to defend themselves",
+                        "Take trophies only from honorable kills",
+                        "Do not use ranged weapons against unarmed opponents"
+                    ]
+                },
+                "When you act according to your code, you gain advantage on your next attack roll or saving throw."
+            ]
+        },
+        {
+            "name": "Wristblades",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "level": 1,
+            "entries": [
+                "You are equipped with a pair of retractable wristblades. These weapons have the following properties:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Damage: 1d6 slashing",
+                        "Properties: Finesse, Light",
+                        "Cannot be disarmed",
+                        "Can be extended or retracted as a free action"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bio-Mask",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "level": 1,
+            "entries": [
+                "Your bio-mask provides multiple functions:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Darkvision out to 60 feet",
+                        "Can breathe normally in any environment with air",
+                        "Thermal vision (see heat signatures through 1 foot of stone or 1 inch of metal)",
+                        "Targeting system for ranged weapons"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Hunter's Shroud",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "level": 1,
+            "entries": [
+                "You can cast {@spell pass without trace} once per short rest without expending a spell slot."
+            ]
+        },
+        {
+            "name": "Hunter's Shroud",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "level": 2,
+            "entries": [
+                "Your Hunter's Shroud improves. You can now cast {@spell invisibility} on yourself once per long rest without expending a spell slot."
+            ]
+        },
+        {
+            "name": "Hunting Discipline",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "level": 3,
+            "entries": [
+                "You choose a Hunting Discipline that shapes your approach to the hunt. Choose from Stalker, Gladiator, Engineer, or Elder. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "level": 4,
+            "entries": [
+                "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead."
+            ]
+        },
+        {
+            "name": "Adaptive Camouflage",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "level": 5,
+            "entries": [
+                "Your camouflage technology adapts to your surroundings. You gain advantage on Dexterity (Stealth) checks, and you can attempt to hide even when only lightly obscured by natural phenomena such as foliage, heavy rain, falling snow, mist, or other natural phenomena."
+            ]
+        },
+        {
+            "name": "Plasma Caster",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "level": 5,
+            "entries": [
+                "You gain a shoulder-mounted plasma caster with the following properties:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Range: 60/120 feet",
+                        "Damage: 2d8 fire",
+                        "Can be fired without using your hands",
+                        "20 charges, regains {@dice 1d4 + 1} charges at dawn"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Self-Healing Module",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "level": 6,
+            "entries": [
+                "As a bonus action, you can activate your self-healing module to regain hit points equal to {@dice 1d4} + your Constitution modifier. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+            ]
+        },
+        {
+            "name": "Hunting Discipline Feature",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "level": 7,
+            "entries": [
+                "You gain a feature from your chosen Hunting Discipline."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "level": 8,
+            "entries": [
+                "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead."
+            ]
+        },
+        {
+            "name": "Trap Mastery",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "level": 9,
+            "entries": [
+                "You have mastered the use of hunting traps. You can set the following traps during a short rest:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Spear Trap: DC 15 Dex save or take {@damage 2d8} piercing damage",
+                        "Net Trap: DC 15 Dex save or be restrained",
+                        "Snare Trap: DC 15 Dex save or be restrained and lifted 5 feet"
+                    ]
+                },
+                "The save DC increases to 17 at 13th level and 19 at 17th level."
+            ]
+        },
+        {
+            "name": "Predator's Veil",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "level": 10,
+            "entries": [
+                "Your stealth technology is enhanced. You can cast {@spell greater invisibility} on yourself once per long rest without expending a spell slot."
+            ]
+        },
+        {
+            "name": "Mask Upgrade",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "level": 10,
+            "entries": [
+                "Your Bio-Mask receives an upgrade. Choose one of the following enhancements:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Electromagnetic vision: See invisible creatures within 30 feet",
+                        "Enhanced targeting: +2 bonus to ranged attack rolls",
+                        "Environmental adaptation: Immunity to one damage type (acid, cold, fire, lightning, or poison) for 1 hour, once per long rest"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Hunting Discipline Feature",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "level": 11,
+            "entries": [
+                "You gain a feature from your chosen Hunting Discipline."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "level": 12,
+            "entries": [
+                "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead."
+            ]
+        },
+        {
+            "name": "Advanced Adaptive Camouflage",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "level": 13,
+            "entries": [
+                "Your camouflage becomes even more effective. While you remain motionless, you are invisible to creatures that rely on sight. Additionally, you can move up to half your speed while maintaining this invisibility."
+            ]
+        },
+        {
+            "name": "Mask Upgrade",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "level": 14,
+            "entries": [
+                "Your Bio-Mask receives another upgrade. Choose one enhancement you don't already have:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Electromagnetic vision: See invisible creatures within 30 feet",
+                        "Enhanced targeting: +2 bonus to ranged attack rolls",
+                        "Environmental adaptation: Immunity to one damage type for 1 hour, once per long rest",
+                        "Ultraviolet vision: Track creatures by scent trails up to 24 hours old"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Hunting Discipline Feature",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "level": 15,
+            "entries": [
+                "You gain a feature from your chosen Hunting Discipline."
+            ]
+        },
+        {
+            "name": "Silent Execution",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "level": 15,
+            "entries": [
+                "You can make a special melee attack against a surprised creature. If the attack hits, it is automatically a critical hit, and the target must make a Constitution saving throw (DC = 8 + your proficiency bonus + your Strength modifier) or be reduced to 0 hit points."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "level": 16,
+            "entries": [
+                "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead."
+            ]
+        },
+        {
+            "name": "Ultimate Trophy",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "level": 17,
+            "entries": [
+                "You can take a trophy from a powerful defeated foe (CR 10 or higher). Spending 10 minutes with the corpse grants you one of the following permanent benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "+1 to one ability score (maximum 22)",
+                        "Resistance to one damage type the creature had",
+                        "One spell the creature could cast (1/day, no spell slot required)"
+                    ]
+                },
+                "You can have only one Ultimate Trophy benefit at a time."
+            ]
+        },
+        {
+            "name": "Perfect Predator Cloak",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "level": 18,
+            "entries": [
+                "Your cloaking technology is perfected. You are permanently under the effect of {@spell nondetection}. Additionally, you can cast {@spell invisibility} at will without expending a spell slot."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "level": 19,
+            "entries": [
+                "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead."
+            ]
+        },
+        {
+            "name": "Apex Predator",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "level": 20,
+            "entries": [
+                "You become the ultimate hunter. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Your Dexterity and Wisdom scores increase by 2, to a maximum of 22",
+                        "You have advantage on initiative rolls",
+                        "You can take an additional action on your first turn of combat",
+                        "Your critical hit range increases to 19-20 for all weapons"
+                    ]
+                }
+            ]
+        }
+    ],
+    "subclass": [
+        {
+            "name": "Stalker",
+            "shortName": "Stalker",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "subclassFeatures": [
+                "Stalker|Predator|PredatorClassHB|Stalker|3",
+                "Predator's Agility|Predator|PredatorClassHB|Stalker|7",
+                "Hot Pursuit|Predator|PredatorClassHB|Stalker|11",
+                "Sudden Strike|Predator|PredatorClassHB|Stalker|15"
+            ]
+        },
+        {
+            "name": "Gladiator",
+            "shortName": "Gladiator",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "subclassFeatures": [
+                "Gladiator|Predator|PredatorClassHB|Gladiator|3",
+                "Predator's Fury|Predator|PredatorClassHB|Gladiator|7",
+                "Intimidating Presence|Predator|PredatorClassHB|Gladiator|11",
+                "Brutal Strikes|Predator|PredatorClassHB|Gladiator|15"
+            ]
+        },
+        {
+            "name": "Engineer",
+            "shortName": "Engineer",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "subclassFeatures": [
+                "Engineer|Predator|PredatorClassHB|Engineer|3",
+                "Gadget Kit|Predator|PredatorClassHB|Engineer|7",
+                "Remote Manipulation|Predator|PredatorClassHB|Engineer|11",
+                "Advanced Tech|Predator|PredatorClassHB|Engineer|15"
+            ]
+        },
+        {
+            "name": "Elder",
+            "shortName": "Elder",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "subclassFeatures": [
+                "Elder|Predator|PredatorClassHB|Elder|3",
+                "Veteran Instincts|Predator|PredatorClassHB|Elder|7",
+                "Coordinated Hunt|Predator|PredatorClassHB|Elder|11",
+                "Tactical Awareness|Predator|PredatorClassHB|Elder|15"
+            ]
+        }
+    ],
+    "subclassFeature": [
+        {
+            "name": "Stalker",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "subclassShortName": "Stalker",
+            "level": 3,
+            "entries": [
+                "You excel at silent, stealthy takedowns. You gain proficiency in the Stealth skill if you don't already have it. Your proficiency bonus is doubled for any ability check you make that uses Stealth.",
+                "Additionally, you can move up to your speed toward a hostile creature without provoking opportunity attacks."
+            ]
+        },
+        {
+            "name": "Predator's Agility",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "subclassShortName": "Stalker",
+            "level": 7,
+            "entries": [
+                "Your speed increases by 10 feet, and you gain a climbing speed equal to your walking speed. You can also jump twice as far as normal."
+            ]
+        },
+        {
+            "name": "Hot Pursuit",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "subclassShortName": "Stalker",
+            "level": 11,
+            "entries": [
+                "When a creature moves away from you, you can use your reaction to move up to your speed toward that creature. This movement doesn't provoke opportunity attacks."
+            ]
+        },
+        {
+            "name": "Sudden Strike",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "subclassShortName": "Stalker",
+            "level": 15,
+            "entries": [
+                "When you hit a creature that hasn't acted yet in combat, you can deal an extra {@damage 4d6} damage. Once you use this feature, you can't use it again until you finish a short or long rest."
+            ]
+        },
+        {
+            "name": "Gladiator",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "subclassShortName": "Gladiator",
+            "level": 3,
+            "entries": [
+                "You are a master of close-quarters combat. You gain proficiency with all martial weapons and shields. When you engage in two-weapon fighting, you can add your ability modifier to the damage of your second attack."
+            ]
+        },
+        {
+            "name": "Predator's Fury",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "subclassShortName": "Gladiator",
+            "level": 7,
+            "entries": [
+                "When you take damage, you can enter a fury as a bonus action. While furious, you have advantage on Strength checks and Strength saving throws, and you deal +2 damage with melee weapon attacks. Your fury lasts for 1 minute or until you are knocked unconscious. Once you use this feature, you can't use it again until you finish a long rest."
+            ]
+        },
+        {
+            "name": "Intimidating Presence",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "subclassShortName": "Gladiator",
+            "level": 11,
+            "entries": [
+                "As an action, you can attempt to frighten a creature within 30 feet that can see you. The target must make a Wisdom saving throw (DC = 8 + your proficiency bonus + your Charisma modifier) or be frightened of you for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success."
+            ]
+        },
+        {
+            "name": "Brutal Strikes",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "subclassShortName": "Gladiator",
+            "level": 15,
+            "entries": [
+                "Your critical hits are devastating. When you score a critical hit with a melee weapon, you can roll one additional weapon die and add it to the damage."
+            ]
+        },
+        {
+            "name": "Engineer",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "subclassShortName": "Engineer",
+            "level": 3,
+            "entries": [
+                "You are an expert in creating and using advanced technology. You gain proficiency with tinker's tools if you don't already have it, and you can craft simple gadgets during a long rest. You also learn the {@spell mending} cantrip."
+            ]
+        },
+        {
+            "name": "Gadget Kit",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "subclassShortName": "Engineer",
+            "level": 7,
+            "entries": [
+                "You can create and deploy advanced gadgets. During a long rest, you can create up to 3 gadgets from the following list:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Shock Dart: Ranged weapon, 30/60 ft., {@damage 1d4} lightning + stun",
+                        "Proximity Sensor: Detects creatures within 60 feet for 8 hours",
+                        "Portable Mine: 10-foot radius, {@damage 3d6} fire damage"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Remote Manipulation",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "subclassShortName": "Engineer",
+            "level": 11,
+            "entries": [
+                "You can control your gadgets and traps remotely. As a bonus action, you can activate any trap or gadget you've created within 120 feet of you."
+            ]
+        },
+        {
+            "name": "Advanced Tech",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "subclassShortName": "Engineer",
+            "level": 15,
+            "entries": [
+                "Your technological mastery reaches new heights. You can create one advanced gadget during a long rest:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Energy Shield: +2 AC for 1 hour",
+                        "Holographic Decoy: Creates {@spell mirror image} effect",
+                        "Overcharged Weapon: Next weapon attack deals maximum damage"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Elder",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "subclassShortName": "Elder",
+            "level": 3,
+            "entries": [
+                "You are a seasoned veteran and leader among your people. You gain proficiency in the Insight and History skills. Additionally, you can use your bonus action to grant an ally within 30 feet advantage on their next attack roll or saving throw."
+            ]
+        },
+        {
+            "name": "Veteran Instincts",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "subclassShortName": "Elder",
+            "level": 7,
+            "entries": [
+                "Your experience grants you supernatural awareness. You can't be surprised while conscious, and you have advantage on initiative rolls."
+            ]
+        },
+        {
+            "name": "Coordinated Hunt",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "subclassShortName": "Elder",
+            "level": 11,
+            "entries": [
+                "You can coordinate attacks with your allies. When you and at least one ally are within 5 feet of the same enemy, you both have advantage on attack rolls against that enemy."
+            ]
+        },
+        {
+            "name": "Tactical Awareness",
+            "source": "PredatorClassHB",
+            "className": "Predator",
+            "classSource": "PredatorClassHB",
+            "subclassShortName": "Elder",
+            "level": 15,
+            "entries": [
+                "Your tactical knowledge allows you to turn the tide of battle. As an action, you can grant all allies within 60 feet one of the following benefits for 1 minute:",
+                {
+                    "type": "list",
+                    "items": [
+                        "+2 bonus to attack rolls",
+                        "+2 bonus to damage rolls",
+                        "Advantage on saving throws"
+                    ]
+                },
+                "Once you use this feature, you can't use it again until you finish a long rest."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,310 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "PredatorOptionalFeaturesHB",
+                "abbreviation": "POFHB",
+                "full": "Predator Optional Features by Homebrew",
+                "authors": ["Your Name"],
+                "version": "1.0.0",
+                "url": ""
+            }
+        ]
+    },
+    "optionalfeature": [
+        {
+            "name": "Thermal Vision",
+            "source": "PredatorOptionalFeaturesHB",
+            "page": 1,
+            "featureType": ["OTH"],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Predator",
+                            "source": "PredatorClassHB",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "Your Bio-Mask can switch to thermal vision mode. You can see the heat signatures of living creatures through walls and other obstacles within 60 feet. This vision penetrates most barriers but is blocked by 1 foot of stone, 1 inch of common metal, or a thin sheet of lead."
+            ]
+        },
+        {
+            "name": "Electromagnetic Vision",
+            "source": "PredatorOptionalFeaturesHB",
+            "page": 1,
+            "featureType": ["OTH"],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 5,
+                        "class": {
+                            "name": "Predator",
+                            "source": "PredatorClassHB",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "Your Bio-Mask can detect electromagnetic fields. You can see invisible creatures and objects, as well as detect magical auras within 30 feet. This functions similar to {@spell detect magic} but requires no concentration."
+            ]
+        },
+        {
+            "name": "Ultraviolet Vision",
+            "source": "PredatorOptionalFeaturesHB",
+            "page": 1,
+            "featureType": ["OTH"],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 10,
+                        "class": {
+                            "name": "Predator",
+                            "source": "PredatorClassHB",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "Your Bio-Mask can see in the ultraviolet spectrum. You can track creatures by their scent trails, which appear as glowing paths. You have advantage on Wisdom (Survival) checks to track creatures, and can follow tracks up to 24 hours old."
+            ]
+        },
+        {
+            "name": "Serrated Wristblades",
+            "source": "PredatorOptionalFeaturesHB",
+            "page": 1,
+            "featureType": ["OTH"],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 3,
+                        "class": {
+                            "name": "Predator",
+                            "source": "PredatorClassHB",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "Your wristblades have serrated edges that cause bleeding wounds. When you hit with your wristblades, the target takes an additional 1d4 slashing damage at the start of their next turn unless they use an action to stanch the wound or receive magical healing."
+            ]
+        },
+        {
+            "name": "Extending Wristblades",
+            "source": "PredatorOptionalFeaturesHB",
+            "page": 1,
+            "featureType": ["OTH"],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 7,
+                        "class": {
+                            "name": "Predator",
+                            "source": "PredatorClassHB",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "Your wristblades can extend to reach distant targets. The reach of your wristblades increases to 10 feet. Additionally, you can make opportunity attacks against creatures that enter your reach."
+            ]
+        },
+        {
+            "name": "Dual Wristblades",
+            "source": "PredatorOptionalFeaturesHB",
+            "page": 1,
+            "featureType": ["OTH"],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 11,
+                        "class": {
+                            "name": "Predator",
+                            "source": "PredatorClassHB",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "You can extend wristblades from both arms simultaneously. When you engage in two-weapon fighting with your wristblades, you don't need a light weapon in your off-hand, and you add your ability modifier to the damage of your off-hand attack."
+            ]
+        },
+        {
+            "name": "Rapid-Fire Plasma Caster",
+            "source": "PredatorOptionalFeaturesHB",
+            "page": 1,
+            "featureType": ["OTH"],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 9,
+                        "class": {
+                            "name": "Predator",
+                            "source": "PredatorClassHB",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "Your plasma caster can fire multiple shots in quick succession. When you use your action to attack with your plasma caster, you can make two attacks instead of one. Each attack deals 1d8 + your Dexterity modifier fire damage."
+            ]
+        },
+        {
+            "name": "Overcharged Plasma Caster",
+            "source": "PredatorOptionalFeaturesHB",
+            "page": 1,
+            "featureType": ["OTH"],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 13,
+                        "class": {
+                            "name": "Predator",
+                            "source": "PredatorClassHB",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "You can overcharge your plasma caster for a devastating blast. As an action, you can make a single plasma caster attack that deals 4d8 fire damage and forces the target to make a Constitution saving throw (DC = 8 + your proficiency bonus + your Dexterity modifier) or be stunned until the end of their next turn. Once you use this feature, you can't use it again until you finish a short or long rest."
+            ]
+        },
+        {
+            "name": "Explosive Spear Trap",
+            "source": "PredatorOptionalFeaturesHB",
+            "page": 1,
+            "featureType": ["OTH"],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 9,
+                        "class": {
+                            "name": "Predator",
+                            "source": "PredatorClassHB",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "Your spear traps can be rigged with small explosive charges. When a creature triggers your spear trap, all creatures within 10 feet of the trap must make a Dexterity saving throw. On a failed save, they take 2d6 fire damage and are knocked prone. On a successful save, they take half damage and aren't knocked prone."
+            ]
+        },
+        {
+            "name": "Electrified Net Trap",
+            "source": "PredatorOptionalFeaturesHB",
+            "page": 1,
+            "featureType": ["OTH"],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 9,
+                        "class": {
+                            "name": "Predator",
+                            "source": "PredatorClassHB",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "Your net traps can deliver electric shocks. When a creature is caught in your net trap, they take 1d8 lightning damage at the start of each of their turns while restrained. The creature can use an action to make a Strength saving throw, taking 1d8 lightning damage regardless of success or failure."
+            ]
+        },
+        {
+            "name": "Camouflaged Snare",
+            "source": "PredatorOptionalFeaturesHB",
+            "page": 1,
+            "featureType": ["OTH"],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 9,
+                        "class": {
+                            "name": "Predator",
+                            "source": "PredatorClassHB",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "Your snare traps are nearly invisible when set. The DC to detect your snare traps increases by 5, and creatures have disadvantage on Wisdom (Perception) checks to spot them. Additionally, when a creature is caught in your snare, they are lifted 10 feet off the ground, making them easier targets for ranged attacks."
+            ]
+        },
+        {
+            "name": "Trophy Collection",
+            "source": "PredatorOptionalFeaturesHB",
+            "page": 1,
+            "featureType": ["OTH"],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 5,
+                        "class": {
+                            "name": "Predator",
+                            "source": "PredatorClassHB",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "You collect trophies from worthy opponents. When you reduce a creature of CR 1 or higher to 0 hit points with a melee attack, you can spend 1 minute to collect a trophy. You can carry a number of trophies equal to your proficiency bonus. While carrying trophies, you gain a +1 bonus to intimidation checks for each trophy (maximum +3)."
+            ]
+        },
+        {
+            "name": "Honor Code",
+            "source": "PredatorOptionalFeaturesHB",
+            "page": 1,
+            "featureType": ["OTH"],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Predator",
+                            "source": "PredatorClassHB",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "You follow a strict honor code in combat. You refuse to attack unarmed or helpless opponents, and you prefer single combat to group fights. When fighting alone against a single opponent of equal or greater CR, you have advantage on attack rolls and saving throws."
+            ]
+        },
+        {
+            "name": "Hunting Pack Tactics",
+            "source": "PredatorOptionalFeaturesHB",
+            "page": 1,
+            "featureType": ["OTH"],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 7,
+                        "class": {
+                            "name": "Predator",
+                            "source": "PredatorClassHB",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "You can coordinate with other hunters effectively. When you and at least one ally are within 5 feet of the same enemy, you both have advantage on attack rolls against that enemy. Additionally, you can use your bonus action to grant an ally within 30 feet advantage on their next attack roll."
+            ]
+        }
+    ]
+}
