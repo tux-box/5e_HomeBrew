@@ -17,7 +17,7 @@
             "name": "Yautja",
             "source": "YautjaRaceHB",
             "size": ["M"],
-            "speed": 30 Climb equal to walking speed,
+            "speed": 30,
             "ability": [
                 {
                     "dex": 2,
