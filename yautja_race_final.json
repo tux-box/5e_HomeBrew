@@ -18,6 +18,7 @@
             "source": "YautjaRaceHB",
             "size": ["M"],
             "speed": 30,
+            "climb": true,
             "ability": [
                 {
                     "dex": 2,
