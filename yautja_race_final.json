@@ -34,7 +34,7 @@
                 {
                     "name": "Thermal Physiology",
                     "type": "entries",
-                    "entries": ["You have advantage on Wisdom (Perception) checks that rely on hearing or sight in hot environments, but disadvantage in cold environments."]
+                    "entries": ["You have advantage on Wisdom (Perception) checks that rely on sight against objects and creatures with a tempture signature opposite of it's inviroment IE: hot signatures in cold enviroments or cold signatures in hot environments, but disadvantage against objects and creatures with a tempture signiture that matches the enviroment."]
                 },
                 {
                     "name": "Terrain Adaptation",
