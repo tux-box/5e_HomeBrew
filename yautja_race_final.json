@@ -18,7 +18,6 @@
             "source": "YautjaRaceHB",
             "size": ["M"],
             "speed": 30,
-            "climb": 30,
             "ability": [
                 {
                     "dex": 2,
@@ -35,7 +34,7 @@
                 {
                     "name": "Thermal Physiology",
                     "type": "entries",
-                    "entries": ["You have advantage on Wisdom (Perception) checks that rely on sight against objects and creatures with a tempture signature opposite of it's inviroment IE: hot signatures in cold enviroments or cold signatures in hot environments, but disadvantage against objects and creatures with a tempture signiture that matches the enviroment."]
+                    "entries": ["You have advantage on Wisdom (Perception) checks that rely on hearing or sight in hot environments, but disadvantage in cold environments."]
                 },
                 {
                     "name": "Terrain Adaptation",
